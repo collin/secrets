@@ -1,6 +1,25 @@
 = secrets
 
-Description goes here.
+Dirt simple secrets for rails3
+
+Make a file: secrets.yml
+
+Make it look like this:
+
+    facebook:
+      api_key: FAKE_API_KEY
+      secret: FAKE_SECRET
+    twitter
+      api_key: FAKE_API_KEY
+      secret: FAKE_SECRET
+
+And use it like this:
+
+    FBClient.new Secret.facebook.api_key, Secret.facebook.secret
+
+Sweet. That's fucking all she does. Stick it in yo Gemfile and forget about it.
+
+Stay tuned for VERSION 2. It will have another feature.
 
 == Note on Patches/Pull Requests
  
