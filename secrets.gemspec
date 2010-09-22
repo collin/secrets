@@ -23,7 +23,8 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "lib/secrets.rb"
+     "lib/secrets.rb",
+     "secrets.gemspec"
   ]
   s.homepage = %q{http://github.com/collin/secrets}
   s.rdoc_options = ["--charset=UTF-8"]

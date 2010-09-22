@@ -19,6 +19,14 @@ And use it like this:
 
 Sweet. That's fucking all she does. Stick it in yo Gemfile and forget about it.
 
+If you get some crap like:
+
+    uninitialized constant Secret (NameError)
+
+Give this a try:
+
+    Secrets.load!
+
 Stay tuned for VERSION 2. It will have another feature.
 
 == Note on Patches/Pull Requests
